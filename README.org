@@ -1,0 +1,5 @@
+#+TITLE: Xmobar Timer
+
+usage:
+  timer 30 # start a 30 minutes timer
+  timer -c # report current timer stats
