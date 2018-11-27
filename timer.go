@@ -30,9 +30,9 @@ Loop:
 			done <- true
 			break Loop
 		}
-		if t == 30 {
+		if t == 5 {
 			select {
-			case p <- "30":
+			case p <- "5":
 			default:
 			}
 

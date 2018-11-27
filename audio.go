@@ -20,11 +20,11 @@ func audio(c chan string) {
 	for {
 		switch <-c {
 		case "start":
-			play("start3")
+			play("start")
 		case "end":
 			play("end")
-		case "30":
-			play("count_down_30")
+		case "5":
+			play("alarm")
 		}
 	}
 }
