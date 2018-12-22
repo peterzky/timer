@@ -2,7 +2,6 @@ package main
 
 import (
 	"os/exec"
-	"path"
 	"runtime"
 )
 
@@ -12,7 +11,7 @@ func play(f string) {
 		panic("No caller information")
 	}
 
-	cmd := exec.Command("aplay", path.Dir(filename)+"/sound/"+f+".wav")
+	cmd := exec.Command("aplay", "../sound/"+f+".wav")
 	cmd.Run()
 }
 
